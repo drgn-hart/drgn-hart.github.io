@@ -1,5 +1,12 @@
 body {
-    background-color: black;
     font-family: 'Courier New', Courier, monospace;
     color: darkgreen;
+    background: url('../images/matrix.gif');
+}
+
+#content {
+    background-color: darkgrey;
+    z-index: 1;
+    width: 70%;
+    margin-left: 15%;
 }
