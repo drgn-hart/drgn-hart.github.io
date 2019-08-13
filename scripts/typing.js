@@ -4,7 +4,7 @@ function onBodyLoad()
     let employDiv = document.getElementById("employment-details");
     let projectsDiv = document.getElementById("projects");
 
-    let introText = "My intro will be here";
+    let introText = introductionText();
     let employText = "My employment details will be here";
     let projectsText = "My projects details will be here";
 
@@ -26,3 +26,8 @@ function timerHandler(element, character)
     element.innerHTML += character;
 }
 
+function introductionText()
+{
+    let text = "Hey, I am Pavan. I like to code in my free time.";
+    return text;
+}
